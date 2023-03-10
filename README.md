@@ -38,7 +38,7 @@
 3.	Run the following command: “npm install” to install the required dependencies.
 4.	Run the following command: “npm run build” to build the production version of the client-side server.
 5.	Run the following command: “npm install -g serve” to be able to run the production version of the client-side server locally.
-6.	Change directory to the “build folder”. 
+6.	Change directory to the “build" folder. 
 7.	Run the following command “serve -s” to start the client-side server in the production mode.
 8.	The server should now be running on `“http://localhost:3000”`. 
 9.	Open the web browser and navigate to `“http://localhost:3000”` to view the application on the client-side server.
