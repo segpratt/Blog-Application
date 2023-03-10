@@ -11,10 +11,15 @@ function SingleBlogPage() {
 
   useEffect(() => {
     async function fetchData() {
+      try{
       const response = await fetch(`http://localhost:8080/blogs/getBlogsBasedOnSlug/${slug}`);
       const data = await response.json();
       setBlog(data);
     }
+    catch(error){
+      console.log(error);
+    }
+  }
     fetchData();
   }, [slug]);
 

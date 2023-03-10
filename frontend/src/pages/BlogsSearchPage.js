@@ -15,12 +15,17 @@ function BlogsSearch() {
 
   useEffect(() => {
     async function fetchData() {
+      try{
       const response = await fetch(`http://localhost:8080/blogs/getBlogs?page=${currentPage}`);
       const data = await response.json();
       setBlogs(data.blog);
       setTotalPages(data.totalPages);
       navigate(`?pageIndex=${currentPage}`, { replace: true });
     }
+    catch(error){
+      console.log(error);
+    }
+  }
     fetchData();
   }, [currentPage, totalPages, navigate]);
 
