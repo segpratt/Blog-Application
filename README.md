@@ -2,7 +2,7 @@
 
 # Development Setting Instructions
 
-# Backend Server:
+## Backend Server:
 
 1.	Make sure you have Node.js and npm installed on your system.
 2.	Navigate to the root directory of your backend server project in the terminal/command prompt (should be the folder called “backend”).
@@ -10,7 +10,7 @@
 4.	Run the following command “npm run dev” to start the backend server in the development setting.
 5.	The server should now be running on “http://localhost:8080”. 
 
-# Client-Side Server:
+## Client-Side Server:
 
 1.	Make sure you have Node.js and npm installed on your system.
 2.	Navigate to the root directory of your client-side server project in the terminal/command prompt (should be the folder called “frontend”).
